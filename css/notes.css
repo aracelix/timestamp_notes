@@ -3,10 +3,26 @@
 	padding-left: 0;
 }
 
-.heading {
-	text-align: center;
-}
-
 .top-padded {
 	margin-top: 15px;
+}
+
+.positive {
+	color: #92cc41;
+}
+
+.negative {
+	color: #e76e55;
+}
+
+.container {
+	padding: 4em;
+}
+
+.row {
+	padding-bottom: 1em;
+}
+
+.input-row {
+	gap: 1em;
 }
