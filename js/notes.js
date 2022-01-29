@@ -35,7 +35,7 @@ function takeNote(text) {
 }
 
 function getTimeStamp() {
-    return new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false });
+	return new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false });
 }
 
 function getSignal(text) {
@@ -56,7 +56,7 @@ function formatText(text) {
 function handleClearNotes(e) {
 	let response = confirm("Are you sure you want to clear your notes?");
 	if (response) {
-    	localStorage.notes = '';
+			localStorage.notes = '';
 		$(NOTES_OUTPUT_ID).html('');
 	}
 }
